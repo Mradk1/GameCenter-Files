@@ -24,6 +24,10 @@
 		F6DBF7921611E36100275CC2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DBF7711611E36100275CC2 /* CoreData.framework */; };
 		F6DBF79A1611E36100275CC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6DBF7981611E36100275CC2 /* InfoPlist.strings */; };
 		F6DBF79D1611E36100275CC2 /* GameCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DBF79C1611E36100275CC2 /* GameCenterTests.m */; };
+		F6DBF7A81611E37C00275CC2 /* GameClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DBF7A71611E37C00275CC2 /* GameClassViewController.m */; };
+		F6DBF7AB1611E3BB00275CC2 /* MTicon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DBF7AA1611E3BB00275CC2 /* MTicon2x.png */; };
+		F6DBF7AD1611E3BD00275CC2 /* MTicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DBF7AC1611E3BD00275CC2 /* MTicon.png */; };
+		F6DBF7AF1611E3CE00275CC2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DBF7AE1611E3CE00275CC2 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,12 @@
 		F6DBF7991611E36100275CC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6DBF79B1611E36100275CC2 /* GameCenterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameCenterTests.h; sourceTree = "<group>"; };
 		F6DBF79C1611E36100275CC2 /* GameCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameCenterTests.m; sourceTree = "<group>"; };
+		F6DBF7A61611E37C00275CC2 /* GameClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameClassViewController.h; sourceTree = "<group>"; };
+		F6DBF7A71611E37C00275CC2 /* GameClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameClassViewController.m; sourceTree = "<group>"; };
+		F6DBF7A91611E3A300275CC2 /* HeaderValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HeaderValues.h; path = ../HeaderValues.h; sourceTree = "<group>"; };
+		F6DBF7AA1611E3BB00275CC2 /* MTicon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MTicon2x.png; sourceTree = "<group>"; };
+		F6DBF7AC1611E3BD00275CC2 /* MTicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MTicon.png; sourceTree = "<group>"; };
+		F6DBF7AE1611E3CE00275CC2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DBF7AF1611E3CE00275CC2 /* GameKit.framework in Frameworks */,
 				F6DBF76C1611E36100275CC2 /* UIKit.framework in Frameworks */,
 				F6DBF76E1611E36100275CC2 /* Foundation.framework in Frameworks */,
 				F6DBF7701611E36100275CC2 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +100,8 @@
 		F6DBF75C1611E36100275CC2 = {
 			isa = PBXGroup;
 			children = (
+				F6DBF7AC1611E3BD00275CC2 /* MTicon.png */,
+				F6DBF7AA1611E3BB00275CC2 /* MTicon2x.png */,
 				F6DBF7731611E36100275CC2 /* GameCenter */,
 				F6DBF7951611E36100275CC2 /* GameCenterTests */,
 				F6DBF76A1611E36100275CC2 /* Frameworks */,
@@ -108,6 +121,7 @@
 		F6DBF76A1611E36100275CC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6DBF7AE1611E3CE00275CC2 /* GameKit.framework */,
 				F6DBF76B1611E36100275CC2 /* UIKit.framework */,
 				F6DBF76D1611E36100275CC2 /* Foundation.framework */,
 				F6DBF76F1611E36100275CC2 /* CoreGraphics.framework */,
@@ -122,6 +136,9 @@
 			children = (
 				F6DBF77C1611E36100275CC2 /* AppDelegate.h */,
 				F6DBF77D1611E36100275CC2 /* AppDelegate.m */,
+				F6DBF7A61611E37C00275CC2 /* GameClassViewController.h */,
+				F6DBF7A71611E37C00275CC2 /* GameClassViewController.m */,
+				F6DBF7A91611E3A300275CC2 /* HeaderValues.h */,
 				F6DBF7851611E36100275CC2 /* GameCenter.xcdatamodeld */,
 				F6DBF7741611E36100275CC2 /* Supporting Files */,
 			);
@@ -236,6 +253,8 @@
 				F6DBF7801611E36100275CC2 /* Default.png in Resources */,
 				F6DBF7821611E36100275CC2 /* Default@2x.png in Resources */,
 				F6DBF7841611E36100275CC2 /* Default-568h@2x.png in Resources */,
+				F6DBF7AB1611E3BB00275CC2 /* MTicon2x.png in Resources */,
+				F6DBF7AD1611E3BD00275CC2 /* MTicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +292,7 @@
 				F6DBF77A1611E36100275CC2 /* main.m in Sources */,
 				F6DBF77E1611E36100275CC2 /* AppDelegate.m in Sources */,
 				F6DBF7871611E36100275CC2 /* GameCenter.xcdatamodeld in Sources */,
+				F6DBF7A81611E37C00275CC2 /* GameClassViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
